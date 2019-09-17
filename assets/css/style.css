@@ -1,0 +1,113 @@
+head {
+
+}
+
+body {
+
+}
+
+header {
+    float: left;
+    background-color: #4aaaa5;
+    font-family: serif;
+    color: #ffffff;
+    padding: 14px 16px;
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    background-color: #666666;
+    padding: 10px 14px;
+    font-size: 10px;
+    color: #ffffff;
+    flex-shrink: 0;
+    }
+
+.navigate {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    justify-content: center;
+    background-color: #ffffff;
+    
+  }
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia'
+  }
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #777777;
+  }
+
+#blake {
+    float: left;
+    padding: 20px 20px;
+    align-self: start;
+}
+p {
+    color: #777777;
+}
+#aboutblake {
+    float: right;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #4aaaa5;
+  }
+  
+  .contact {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
